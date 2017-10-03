@@ -8,7 +8,7 @@ class Profile extends Component {
 		artist = this.props.artist != null ? this.props.artist : artist; 
 
 		return(
-			<div> 
+			<div className='profile'> 
 				<img
 					alt="Profile"
 					className="profile-img"
